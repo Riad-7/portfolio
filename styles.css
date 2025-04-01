@@ -46,27 +46,21 @@ header {
     grid-template-columns: repeat(2, 1fr); 
     align-items: center;
     padding: 2rem 5rem 0 18rem;
-    gap: 1rem;
+    gap: 10rem;
+    flex-wrap: wrap;
 }
 .home-img img {
     width: 28rem; 
     height: auto;
     border-radius: 20px;
 }
-.home-text h2 { 
-    font-size: 3rem; 
-    margin-bottom: 1rem;
+.home-text {
+    align-items: center;
 }
-.home-text h3 { 
-    position: relative; 
-    padding-left: 6rem; 
-    font-weight: 500; 
-    margin-bottom: 1rem;
-}
-
 .home-text p {
-    margin-bottom: 2rem;
-}
+    margin-top: 1rem;
+
+} 
 .btn {
     display: inline-block; 
     width: fit-content;
@@ -283,3 +277,4 @@ nav ul li a {
 nav ul li a:hover {
     color: #777777;
 }
+
